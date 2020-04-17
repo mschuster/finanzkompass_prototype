@@ -29,10 +29,13 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+        name: `markdown-pages`,
+        path: `${__dirname}/src/markdown-pages`,
       },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
