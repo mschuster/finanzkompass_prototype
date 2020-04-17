@@ -1,6 +1,24 @@
 module.exports = {
   siteMetadata: {
     title: `Finanzkompass Prototyp`,
+    menuLinks:[
+            {
+               name:'Home',
+               link:'/'
+            },
+            {
+              name:'Service',
+               link:'/services'
+            },
+            {
+              name:'Erstinformation / Impressum',
+              link:'/impressum'
+            },
+            {
+              name:'Kontakt',
+              link:'/contact'
+            }
+          ],
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },

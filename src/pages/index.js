@@ -1,14 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <p>Prototyp für Finanzkompass Görlitz. Entwickelt mit Gatsby und Hosted mit netlify.</p>
+    <p>Prototyp für Finanzkompass Görlitz.</p>
 
     Wir sind persönlich für Sie da:
     <br/><br/>
@@ -35,7 +33,6 @@ const IndexPage = () => (
     hinterlassen Sie bitte keine Nachricht. weitere Informationen siehe unter Datenschutz
     </p>
 
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
