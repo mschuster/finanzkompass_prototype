@@ -10,13 +10,13 @@ const IndexPage = () => (
 
     Wir sind persönlich für Sie da:
     <br/><br/>
-    <h3>telefonisch unter: 03581/ 41 22 00</h3>
+    <h3>telefonisch unter: </h3>
 
     falls diese Rufnummer einmal nicht erreichbar sein sollte,<br/>
-    wählen Sie bitte: 03581/ 40 26 37<br/><br/>
+    wählen Sie bitte: <br/><br/>
     auf unserem Anruf"beantworter" können Sie eine Rückruf-Bitte hinterlassen.*
 
-    <h3>in unseren Geschäftsräumen in Görlitz, Elisabethstraße 18</h3>
+    <h3>in unseren Geschäftsräumen in </h3>
 
     Sprechtag ohne Voranmeldung:<br/>
     Dienstag           10:00 - 19:00 Uhr<br/><br/>  

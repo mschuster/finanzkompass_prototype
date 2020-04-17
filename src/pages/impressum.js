@@ -8,15 +8,15 @@ const Impressum = () => (
     <SEO title="Impressum" />
     <h1>Erstinformation und Impressum</h1>
     <p>
-Andreas Heinrich FINANZKOMPASS<br/>
+Anschprechpartner<br/>
 Finanz-und Versicherungsmakler<br/>
-Elisabethstraße 18<br/>
-02826 Görlitz<br/><br/>
+Straße<br/>
+Ort <br/><br/>
 
-Telefon: +49 3581 412200<br/>
-Telefax: +49 3581 412201<br/>
-E-Mail: info@finanzkompass.com sowie info@finanzkompass.eu<br/>
-Internet: www.finanzkompass.eu<br/><br/>
+Telefon: <br/>
+Telefax: <br/>
+E-Mail: <br/>
+Internet: <br/><br/>
 
 Der Makler ist an keine Versicherungsgesellschaft gebunden, er steht rechtlich auf der Seite des Versicherungsnehmers und nimmt daher unabhängig die Versicherungsinteressen des Auftraggebers wahr. Der Makler hält keine unmittelbare oder mittelbare Beteiligung von mehr als 10 % der Stimmrechte oder des Kapitals an einem Versicherungsunternehmen. Ein Versicherungsunternehmen hält keine mittelbare oder unmittelbare Beteiligung an den Stimmrechten oder dem Kapital am Versicherungsmakler.
 <br/><br/>
@@ -39,7 +39,7 @@ Die Versicherungswirtschaft verfügt seit geraumer Zeit über Schlichtungsstelle
 <br/><br/>
 Anschriften der Ombudsstellen:<br/>
 <br/><br/>
-Versicherungsombudsmann e.V., Postfach 08 06 22, 10006 Berlin<br/>
+<br/>
 (weitere Informationen unter: www.versicherungsombudsmann.de)<br/>
 <br/><br/>
 Ombudsmann für die private Kranken- und Pflegeversicherung Kronenstr.13 10117 Berlin(weitere Informationen unter: www.pkv-ombudsmann.de)
@@ -48,25 +48,25 @@ Bundesanstalt für Finanzdienstleistungsaufsicht (BAFin) Graurheindorfer Straße
 <br/><br/>
 Zuständige Aufsichtsbehörde für die Tätigkeit als Versicherungsvemittler/-berater und Finanzanlagenvermittler:<br/>
 Industrie- und Handelskammer Dresden (IHK)<br/>
-Langer Weg 4<br/>
-01239 Dresden<br/>
-Tel. 0351/2802-0<br/>
+<br/>
+<br/>
+<br/>
 <br/><br/>
 Versicherungsmakler gemäß §34d GewO:<br/>
-Vermittler-Register-Nummer: D-5AFN-17CXE-75<br/>
+Vermittler-Register-Nummer: <br/>
 <br/><br/>
 Finanzanlagenvermittler gemäß § 34f Absatz 1 Satz 1 GewO eingetragen in das Vermittlerregister unter Nummer D-F-144-A1SR-38
 <br/><br/>
 Immobiliar-Darlehensvermittler gemäß $34 i GewO eingetragen in das<br/>
-Vermittlerregister unter Nummer: D-W-144-11PU-45<br/>
+Vermittlerregister unter Nummer: <br/>
 <br/><br/>
 gemeinsame Registerstelle:<br/>
 Deutscher Industrie- und Handelskammertag (DIHK) e.V.<br/>
-Breite Straße 29<br/>
-10178 Berlin<br/>
-Telefon: 030/20308-0 <br/>
+<br/>
+<br/>
+Telefon:  <br/>
 <br/><br/>
-www.vermittlerregister.info<br/>
+<br/>
 <br/><br/>
 Haftungshinweis:<br/>
 Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links.<br/>
