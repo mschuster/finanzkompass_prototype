@@ -11,18 +11,15 @@ const Contact = () => (
         <br/>
         Wenn Sie Fragen zu unseren Produkten oder unserer Firma haben, so können Sie per<br/>
         <br/>
-        Telefon 03581/412200<br/>
+        Telefon <br/>
         <br/>
-        FAX       03581/412201<br/>
+        FAX       <br/>
         <br/>
-        email:   info@finanzkompass.eu<br/>
+        email:   <br/>
         <br/>
         oder auf dem Postweg<br/>
         <br/>
-        FINANZKOMPASS Andreas Heinrich<br/>
-        Finanz-und Versicherungsmakler<br/>
-        Elisabethstr. 18<br/>
-        02826 Görlitz<br/>
+        
         <br/>
         Kontakt zu uns aufnehmen. <br/>
     </Layout>
