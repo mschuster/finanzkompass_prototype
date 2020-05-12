@@ -3,14 +3,14 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle, menuLinks }) => (
-  <header class="header">
-    <div class="headerdiv">
+  <header className="header">
+    <div className="headerdiv">
         <Link to="/">
-            <img src="../Schriftzug_neu.png" alt="FinanzKompass" class="headerimg"></img>
+            <img src="../Schriftzug_neu.png" alt="FinanzKompass" className="headerimg"></img>
         </Link>
         <div>
             <nav>
-                <ul class="navilist">
+                <ul className="navilist">
                     <li>
                         <Link to="/">Home</Link>
                     </li>

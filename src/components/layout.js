@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
   return (
     <div>
         <Header menuLinks={data.site.siteMetadata.menuLinks} siteTitle={data.site.siteMetadata.title} />
-        <div class="content">
+        <div className="content">
             <main>{children}</main>
         </div>
         <Footer />
