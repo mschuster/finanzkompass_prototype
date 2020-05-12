@@ -126,8 +126,10 @@ export default class ServiceComponent extends React.Component {
                 <img className="arrow arrow-left" src="../previous.png" onClick={this.previous}/>
                 <img className="arrow arrow-right" src="../next.png" onClick={this.next}/>
                 <div className="servicetop">
-                    <img src={this.state.imageid} alt="Immobilien"/>
-                    <div>
+                    <div className="servicetop-left">
+                        <img src={this.state.imageid} alt="Immobilien"/>
+                    </div>
+                    <div className="servicetop-right">
                         <h1 id="serviceHeadline">{this.state.title}</h1>
                         <p>{this.state.shorttext}</p>
                         <div id="dotdiv" className="dotdiv">

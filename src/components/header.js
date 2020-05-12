@@ -6,7 +6,8 @@ const Header = ({ siteTitle, menuLinks }) => (
   <header className="header">
     <div className="headerdiv">
         <Link to="/">
-            <img src="../Schriftzug_neu.png" alt="FinanzKompass" className="headerimg"></img>
+            <img src="../Schriftzug_neu.png" alt="FinanzKompass" className="headerimg"/>
+            <img src="../Logo_neu.png" alt="FinanzKompass" className="headerlogo"/>
         </Link>
         <div>
             <nav>
