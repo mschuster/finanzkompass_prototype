@@ -16,23 +16,23 @@ const Home = () => {
                 <ul className="homelist">
                     <li>
                         <img src="../Pfeil.png" />
-                        <Link to="/services">Versicherung</Link>
+                        <Link to="/services" state={{ service: 0 }}>Versicherung</Link>
                     </li>
                     <li>
                         <img src="../Pfeil.png" />
-                        <Link to="/services">Immobilien</Link>
+                        <Link to="/services" state={{ service: 1 }}>Immobilien</Link>
                     </li>
                     <li>
                         <img src="../Pfeil.png" />
-                        <Link to="/services">Investmentfonts</Link>
+                        <Link to="/services" state={{ service: 2 }}>Investmentfonts</Link>
                     </li>
                     <li>
                         <img src="../Pfeil.png" />
-                        <Link to="/services">Baufinanzierung</Link>
+                        <Link to="/services" state={{ service: 3 }}>Baufinanzierung</Link>
                     </li>
                     <li>
                         <img src="../Pfeil.png" />
-                        <Link to="/services">Finanzberatung</Link>
+                        <Link to="/services" state={{ service: 4 }}>Finanzberatung</Link>
                     </li>
                 </ul>
             </div>
