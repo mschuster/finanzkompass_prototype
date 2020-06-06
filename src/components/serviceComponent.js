@@ -41,7 +41,7 @@ export default class ServiceComponent extends React.Component {
     } else {
       var i = 0
     }
-    this.index = i
+    this.setState({index: i});
     this.state.dotclasses[0] = "dot-grey"
     this.state.dotclasses[1] = "dot-grey"
     this.state.dotclasses[2] = "dot-grey"
@@ -51,13 +51,13 @@ export default class ServiceComponent extends React.Component {
   }
 
   previous() {
-    var i
+    console.log("clicked previous")
     if (this.state.index > 0) {
-      i = parseInt(this.state.index) - 1
+      var i = parseInt(this.state.index) - 1
     } else {
-      i = 4
+      var i = 4
     }
-    this.index = i
+    this.setState({index: i});
     this.state.dotclasses[0] = "dot-grey"
     this.state.dotclasses[1] = "dot-grey"
     this.state.dotclasses[2] = "dot-grey"
