@@ -1,41 +1,43 @@
 import React from "react"
+import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import "../components/layout.css"
 
-const IndexPage = () => (
-  <Layout>
-      <div className="textpage">
-        <SEO title="Home" />
-        <p>Prototyp für Finanzkompass Görlitz.</p>
-
-        Wir sind persönlich für Sie da:
-        <br/><br/>
-        <h3>telefonisch unter: </h3>
-
-        falls diese Rufnummer einmal nicht erreichbar sein sollte,<br/>
-        wählen Sie bitte: <br/><br/>
-        auf unserem Anruf"beantworter" können Sie eine Rückruf-Bitte hinterlassen.*
-
-        <h3>in unseren Geschäftsräumen in </h3>
-
-        Sprechtag ohne Voranmeldung:<br/>
-        Dienstag           10:00 - 19:00 Uhr<br/><br/>
-
-
-        ...und jederzeit nach vorheriger Vereinbarung.<br/><br/>
-
-        Hausbesuche auf Wunsch.
-
-        <br/><br/>
-
-        <p> * eine Rückruf-Bitte verstehen wir als Einwilligung zur telefonischen
-        Ansprache (dass wir Sie anrufen dürfen). Falls Sie nicht angerufen werden möchten,
-        hinterlassen Sie bitte keine Nachricht. weitere Informationen siehe unter Datenschutz
-        </p>
-      </div>
-
-  </Layout>
-)
+const IndexPage = () => {
+    return(
+        <div className="home">
+            <div className="homeleft">
+                <img src="../Home_BG.jpg" alt=""/>
+            </div>
+            <div className="homelogo">
+                <img src="../Schriftzug_neu.png" alt=""/>
+            </div>
+            <div className="homeright">
+                <ul className="homelist">
+                    <li>
+                        <img src="../Pfeil.png" alt=""/>
+                        <Link to="/services" state={{ service: 0 }}>Versicherung</Link>
+                    </li>
+                    <li>
+                        <img src="../Pfeil.png" alt="" />
+                        <Link to="/services" state={{ service: 1 }}>Immobilien</Link>
+                    </li>
+                    <li>
+                        <img src="../Pfeil.png" alt=""/>
+                        <Link to="/services" state={{ service: 2 }}>Investmentfonts</Link>
+                    </li>
+                    <li>
+                        <img src="../Pfeil.png" alt=""/>
+                        <Link to="/services" state={{ service: 3 }}>Baufinanzierung</Link>
+                    </li>
+                    <li>
+                        <img src="../Pfeil.png" alt=""/>
+                        <Link to="/services" state={{ service: 4 }}>Finanzberatung</Link>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    )
+}
 
 export default IndexPage
