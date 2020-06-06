@@ -19,7 +19,6 @@ export default class ServiceComponent extends React.Component {
     this.previous = this.previous.bind(this)
     this.setdot = this.setdot.bind(this)
     this.start = this.start.bind(this)
-    console.log(this.state);
     this.start()
   }
 
